@@ -1,0 +1,50 @@
+.headerTop {
+  background: #323232;
+}
+
+.headerTopContent {
+  height: 50px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerTop__select {
+  border: none;
+  color: #fff;
+  outline: none;
+  font-size: 14px;
+  background: none;
+  line-height: 21px;
+}
+
+.headerTop__select option {
+  color: black;
+  background: none;
+}
+
+.nav {
+  padding: 31px 0 16px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerLeft,
+.headerRight {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.link {
+  color: black;
+  transition: 500ms;
+}
+
+.link:hover {
+  border-bottom: 1px solid black;
+}
