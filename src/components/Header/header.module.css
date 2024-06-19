@@ -36,8 +36,8 @@
 .headerLeft,
 .headerRight {
   display: flex;
-  align-items: center;
   column-gap: 25px;
+  align-items: center;
 }
 
 .link {

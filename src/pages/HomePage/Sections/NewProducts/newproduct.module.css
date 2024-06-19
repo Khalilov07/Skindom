@@ -1,0 +1,27 @@
+.cont {
+  display: flex;
+  justify-content: center;
+}
+
+.NeweProduct__img img {
+  width: 100%;
+}
+
+.NeweProduct {
+  width: 23%;
+  position: relative;
+  padding: 75px 40px;
+}
+
+.NewProducts {
+  gap: 56px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.sell {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+}
